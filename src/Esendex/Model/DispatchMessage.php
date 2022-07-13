@@ -157,7 +157,7 @@ class DispatchMessage extends Message
 	public function sendAt($value = null)
 	{
 		if ($value != null) {
-			$this->sendAt = (int)$value;
+			$this->sendAt = $value;
 		}
 		return $this->sendAt;
 	}
